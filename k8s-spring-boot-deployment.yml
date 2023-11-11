@@ -28,7 +28,7 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-    - port: 8
+    - port: 81
       targetPort: 8081
   selector:
     app: jhooq-springboot
